@@ -1,13 +1,13 @@
-# Advanced Dev Utils 🚀
+# DevTools Pro 🚀
 
-A comprehensive TypeScript utility library packed with advanced features including AI-powered processing, real-time streaming, intelligent caching, and much more. Built for modern developers who need powerful, production-ready utilities.
+A comprehensive TypeScript utility library packed with smart features, real-time streaming, intelligent caching, and much more. Built for modern developers who need powerful, production-ready utilities - **no API keys required!**
 
 ## ✨ Features
 
-### 🧠 AI-Powered Processing
-- **AIProcessor**: Sentiment analysis, text generation, and entity extraction
-- **Smart Caching**: AI-driven cache optimization with intelligent eviction
-- **Data Validation**: AI-enhanced validation with automatic error correction
+### 🧠 Smart Processing (No API Keys!)
+- **AIProcessor**: Local sentiment analysis, text classification, and entity extraction
+- **Smart Caching**: Intelligent cache optimization with adaptive eviction
+- **Data Validation**: Enhanced validation with automatic error correction
 
 ### ⚡ Real-Time Capabilities
 - **RealtimeStream**: WebSocket-based streaming with compression and encryption
@@ -15,7 +15,7 @@ A comprehensive TypeScript utility library packed with advanced features includi
 - **Advanced Logger**: Multi-output logging with anomaly detection
 
 ### 🔧 Comprehensive Utilities
-- **String Utils**: NLP-enhanced string manipulation
+- **String Utils**: Advanced string manipulation and analysis
 - **Array Utils**: Functional programming operations with statistical analysis
 - **Object Utils**: Deep object manipulation and validation
 - **Math Utils**: Advanced mathematical and statistical functions
@@ -30,10 +30,10 @@ A comprehensive TypeScript utility library packed with advanced features includi
 - **CryptoUtils**: Advanced encryption, hashing, and JWT management
 - **APIHelper**: Intelligent HTTP client with caching and retry logic
 
-## 🚀 Installation
+## � Installation
 
 ```bash
-npm install advanced-dev-utils
+npm install devtools-pro
 ```
 
 ## 📖 Quick Start
@@ -47,18 +47,17 @@ import {
   CryptoUtils,
   StringUtils,
   AsyncQueue
-} from 'advanced-dev-utils';
+} from 'devtools-pro';
 
-// Smart caching with AI optimization
+// Smart caching with intelligent optimization
 const cache = new SmartCache({ 
   maxSize: 1000, 
   ttl: 300000, 
   compression: true 
 });
 
-// AI-powered text processing
+// Local AI processing (no API key needed!)
 const aiProcessor = new AIProcessor({
-  model: 'gpt-3.5-turbo',
   temperature: 0.7
 });
 
@@ -70,10 +69,7 @@ const stream = new RealtimeStream({
 });
 
 // Performance monitoring
-const monitor = new PerformanceMonitor({
-  sampleRate: 1000,
-  enableMemoryTracking: true
-});
+const monitor = new PerformanceMonitor();
 
 // Async task processing
 const queue = new AsyncQueue({
@@ -352,7 +348,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- 📧 Email: support@advanced-dev-utils.com
+- 📧 Email: anipaleja@gmail.com
 - 💬 Discord: [Join our community](https://discord.gg/advanced-dev-utils)
 - 📚 Documentation: [docs.advanced-dev-utils.com](https://docs.advanced-dev-utils.com)
 - 🐛 Issues: [GitHub Issues](https://github.com/yourname/advanced-dev-utils/issues)

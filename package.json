@@ -1,7 +1,7 @@
 {
-  "name": "advanced-dev-utils",
+  "name": "devtools-pro",
   "version": "1.0.0",
-  "description": "A comprehensive TypeScript utility library with AI-powered features, real-time streaming, intelligent caching, and advanced utilities for modern developers.",
+  "description": "A comprehensive TypeScript utility library with smart features, real-time streaming, intelligent caching, and advanced utilities for modern developers.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -60,12 +60,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anishpaleja/advanced-dev-utils.git"
+    "url": "git+https://github.com/anishpaleja/devtools-pro.git"
   },
   "bugs": {
-    "url": "https://github.com/anishpaleja/advanced-dev-utils/issues"
+    "url": "https://github.com/anishpaleja/devtools-pro/issues"
   },
-  "homepage": "https://github.com/anishpaleja/advanced-dev-utils#readme",
+  "homepage": "https://github.com/anishpaleja/devtools-pro#readme",
   "engines": {
     "node": ">=16.0.0"
   },
