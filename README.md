@@ -1,4 +1,4 @@
-# DevTools Pro 
+# Advanced Dev Utils
 
 A comprehensive TypeScript utility library packed with smart features, real-time streaming, intelligent caching, and much more. Built for modern developers who need powerful, production-ready utilities - **no API keys required!**
 
