@@ -9,10 +9,10 @@ import {
 } from '../src/index';
 
 async function demonstrateAdvancedUtils() {
-  console.log('🚀 Advanced Dev Utils - Demo\n');
+  console.log('Advanced Dev Utils - Demo\n');
 
   // 1. Smart Caching Demo
-  console.log('📦 Smart Caching:');
+  console.log('Smart Caching:');
   const cache = new SmartCache({ maxSize: 100, ttl: 60000 });
   
   await cache.set('user:123', { name: 'John Doe', age: 30 });
@@ -20,7 +20,7 @@ async function demonstrateAdvancedUtils() {
   console.log('Cached user:', user);
 
   // 2. String Utils Demo
-  console.log('\n🔤 String Utils:');
+  console.log('\nString Utils:');
   const text1 = 'Hello World';
   const text2 = 'Hello Universe';
   const similarity = StringUtils.similarity(text1, text2);
@@ -30,7 +30,7 @@ async function demonstrateAdvancedUtils() {
   console.log(`Camel case: ${camelCase}`);
 
   // 3. Crypto Utils Demo
-  console.log('\n🔐 Crypto Utils:');
+  console.log('\nCrypto Utils:');
   const randomString = CryptoUtils.randomString(16);
   console.log(`Random string: ${randomString}`);
   
@@ -41,7 +41,7 @@ async function demonstrateAdvancedUtils() {
   console.log(`SHA-256 hash: ${hash.substring(0, 20)}...`);
 
   // 4. Math Utils Demo
-  console.log('\n🧮 Math Utils:');
+  console.log('\nMath Utils:');
   const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const mean = MathUtils.average(numbers);
   const median = MathUtils.median(numbers);
@@ -53,7 +53,7 @@ async function demonstrateAdvancedUtils() {
   });
 
   // 5. Array Utils Demo
-  console.log('\n📊 Array Utils:');
+  console.log('\nArray Utils:');
   const data = [1, 2, 3, 4, 5];
   const chunks = ArrayUtils.chunk(data, 2);
   console.log(`Chunked array:`, chunks);
@@ -62,7 +62,7 @@ async function demonstrateAdvancedUtils() {
   console.log(`Unique values:`, unique);
 
   // 6. Async Queue Demo
-  console.log('\n⚡ Async Queue:');
+  console.log('\nAsync Queue:');
   const queue = new AsyncQueue({ concurrency: 2 });
   
   const tasks = [
@@ -80,7 +80,7 @@ async function demonstrateAdvancedUtils() {
   console.log('All tasks completed!');
 
   // 7. Performance Monitor Demo
-  console.log('\n📊 Performance Monitor:');
+  console.log('\nPerformance Monitor:');
   const monitor = new PerformanceMonitor();
   
   // Monitor a function
@@ -99,7 +99,7 @@ async function demonstrateAdvancedUtils() {
   const analytics = monitor.getAnalytics();
   console.log('Average execution time:', analytics.summary.averageExecutionTime.toFixed(2) + 'ms');
 
-  console.log('\n✅ Demo completed successfully!');
+  console.log('\nDemo completed successfully!');
 }
 
 // Run the demo
