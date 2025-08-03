@@ -333,7 +333,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE.md) file for details.
 
 ## Why Advanced Dev Utils?
 
@@ -350,7 +350,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - Email: anipaleja@gmail.com
 - Documentation: [docs.advanced-dev-utils.com](https://docs.advanced-dev-utils.com)
-- Issues: [GitHub Issues](https://github.com/yourname/advanced-dev-utils/issues)
+- Issues: [GitHub Issues](https://github.com/anipaleja/advanced-dev-utils/issues)
 
 ---
 
